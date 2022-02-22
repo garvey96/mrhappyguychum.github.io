@@ -75,6 +75,7 @@ nav ul li ul li a {
 .youtube:hover {
   background-color: #303030;
   padding-right: 20px;
+  border-radius: 0px 0px 4px 4px;
 }
 
 .github:hover {
