@@ -8,15 +8,7 @@ nav {
   background-color: black;
   height: 60px;
   width: 100%;
-}
-
-nav p a {
-  font-size: 26px;
-  line-height: 60px;
-  font-family: arial;
-  float: left;
-  color: white;
-  padding: 0px 10px;
+  position: static;
 }
 
 nav p a {
@@ -34,7 +26,7 @@ nav p a:hover {
 }
 
 nav ul {
-  float: left;
+  float: right;
 }
 
 nav ul li {
@@ -56,7 +48,6 @@ nav ul li ul {
   display: none;
   position: absolute;
   background-color: black;
-  border-radius: 0px 0px 4px 4px;
 }
 
 nav ul li:hover ul {
@@ -75,7 +66,6 @@ nav ul li ul li a {
 .youtube:hover {
   background-color: #303030;
   padding-right: 20px;
-  border-radius: 0px 0px 4px 4px;
 }
 
 .github:hover {
@@ -92,3 +82,21 @@ nav img {
   float: left;
 }
 /* end of nav bar*/
+
+main {
+  font-family: arial;
+}
+
+footer {
+  height: 50px;
+  width: 100%;
+  background-color: #f3f3f3;
+  bottom: 0px;
+  margin-bottom: 0px;
+  position: fixed;
+  font-family: arial;
+}
+
+footer p {
+  margin-left: 43%;
+}
